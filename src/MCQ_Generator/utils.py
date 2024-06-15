@@ -2,7 +2,6 @@ import os
 import PyPDF2
 import json
 import traceback
-import fitz
 from PyPDF2 import PdfReader
 
 def read_file(file):
