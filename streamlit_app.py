@@ -14,8 +14,8 @@ with open("./response.json", 'r') as file:
     RESPONSE_JSON = json.load(file)
 
 #creating a title for the app
-st.title("Questgen")
-st.title("Mcq Generation Using Langchain⛓️🔗🦜")
+# st.title("Questgen")
+st.title("MCQ Generator Using Langchain and Gemini AI ⛓️🔗🦜")
 
 # create a form using st.form
 with st.form("user_inputs"):
